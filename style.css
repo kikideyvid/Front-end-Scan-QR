@@ -1,0 +1,40 @@
+body{
+    background: rgb(219, 239, 247);
+}
+.rectangulo{
+    position: absolute;
+    width: 18.8%;
+    height: 55%; 
+    top: 25%;
+    left: 38%;
+    background: rgb(255, 255, 255);
+    border-radius: 2em;
+    text-align: center;
+    
+}
+.imagen{
+width: 95%;
+border-radius: 1em;
+}
+.primer{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+.segundo{
+    font-size: 15px;
+    margin: 1% 20px;
+    color: rgb(172, 172, 172);
+}
+@media screen and (max-width:480px) {
+    .rectangulo{
+        width: auto;
+        left: 50px ;
+        right:50px;
+
+    }
+    .primer{
+        margin: 5% auto;
+    }
+
+}
